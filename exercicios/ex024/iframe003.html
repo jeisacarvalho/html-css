@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quis, autem iste similique illo tempore repellendus accusamus mollitia natus, eveniet placeat obcaecati. Ratione explicabo eos, fugit consectetur fugiat nihil iusto?</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira pagina</a></li>
+        <li><a href="pag002.html" target="frame">Seguna pagina</a></li>
+        <li><a href="pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur cupiditate tenetur id similique aspernatur ipsum necessitatibus, dolore sapiente culpa laborum rem! Unde, illo qui? Quasi error laboriosam ex unde enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, iure, atque magnam in consequuntur ea facere, neque reprehenderit porro explicabo quas eum? Totam repellat error sit illo autem. Reprehenderit, dolores!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>
+    escolha uma das opcoes acima </h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, expedita accusantium, accusamus consequatur laboriosam sint corporis earum ab qui excepturi nesciunt ea velit voluptatem similique non. Amet voluptatibus neque ab.</p><img src='foto.jpg'>">
+
+    <P>Infelizmente seu navegador não é compativel com isso</P>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint dicta dolore harum quidem ipsa ad eius deleniti quaerat, quae cumque repudiandae consectetur numquam soluta quis tenetur. Corporis quos quisquam unde. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit autem quaerat enim reiciendis? Temporibus distinctio, dolores, dolorum, numquam excepturi beatae quo minus incidunt facere voluptate modi delectus? Velit, magni earum!</p>
     
 </body>
 </html>
