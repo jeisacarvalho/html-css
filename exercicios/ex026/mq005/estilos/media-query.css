@@ -1,0 +1,19 @@
+@charset "UTF";
+
+/* Typical Device Breakponts
+  576px para telefones retrato
+  768px ate 1024px para tablets
+  992px ate 1200px para laptops
+  1200px para dispositivos grandes*/
+
+  @media screen and (min-width: 576px){
+    i#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+  }
